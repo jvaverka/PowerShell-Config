@@ -21,16 +21,17 @@ Import-Module PSFzf
 Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
 
 # Aliases
-Set-Alias vim nvim
-Set-Alias v nvim
 Set-Alias c clear
-Set-Alias ll ls
-Set-Alias j julia
+Set-Alias code VSCodium
 Set-Alias g git
 Set-Alias grep findstr
-Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
+Set-Alias j julia
 Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
-Set-Alias code VSCodium
+Set-Alias ll ls
+Set-Alias lg lazygit
+Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
+Set-Alias vim nvim
+Set-Alias v nvim
 
 # Utilities
 function which ($command) {
