@@ -1,5 +1,5 @@
 {
-	"_comment": "Originally based off Negligible",
+  "_comment": "Originally based off Negligible",
   "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
   "blocks": [
     {
